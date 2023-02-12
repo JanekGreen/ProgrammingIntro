@@ -38,6 +38,7 @@ public class VariablesProgram {
 
         // liczby zmiennoprzecinkowe (dziesiętne ułamki)
         // dla Javy, każda liczba z przecinkiem to jest double, przy inicjalizacji floata musimy dodać małe f na koniec.
+        // część dziesiętną odznaczamy kropką
         double weightDouble = 72.5;
         float weight = 72.5f;
 
