@@ -5,8 +5,11 @@ package firstprogram;
 public class FirstProgram {
     //początek programu - metoda main
     public static void main(String[] args) {
-
+        //wiadomość którą chcecie wypisać na ekran
         System.out.println("Witaj świecie!!!");
-
+        /*
+         co się wydarzyło w momecie odpalenia programu
+           -kod z klasy FirstProgram.java został przetłumaczony na FirstProgram.class - kod bajtowy
+        * */
     }
 }
