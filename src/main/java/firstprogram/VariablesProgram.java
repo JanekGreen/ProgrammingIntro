@@ -55,6 +55,21 @@ public class VariablesProgram {
         // na stworzonym stringu wykonujemy są dostępne po kropce jak niżej
         // ile liter ma string
         System.out.println(firstName.length());
+        String empty = "";
+        System.out.println(empty.isEmpty()); // zwróci true gdy string będzie pusty
+
+        firstName ="Robert";
+        System.out.println("Cześć jestem "+ firstName);
+
+        //STAŁE - nadajemy wartość tylko raz przy deklaracji
+        //słówko final przed typ, konwencja jest taka, aby nazwy skladaly sie z duzych liter
+       final float PI =3.14f;
+      //  PI = 6.0f; nie możemy zmieniać wartości
+      // możemy definiować stałe każdego typu final int ADULT_AGE =18
+       final int ADULT_AGE =18; // używamy podkreślnika _ aby oddzielać człony nazwy od siebie
+        final String SAMPLE_NAME = "John";
+        // na stałym stringu tak jak na zmiennej, można wywoływać metody length() etc
+
 
 
     }
