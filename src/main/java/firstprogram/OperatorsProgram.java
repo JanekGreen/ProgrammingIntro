@@ -101,18 +101,53 @@ public class OperatorsProgram {
         //000
         System.out.println(bitwiseResult);
         // Operatory przypisania
-        int luckyNumber = 7;
+        int numberA = 7;
         //dodaje do luckyNumeber 3
-        luckyNumber = luckyNumber + 3;
+        numberA = numberA + 3;
         //skrótowo można skorzystać z +=
-        luckyNumber += 3;
-        luckyNumber = luckyNumber - 3;
+        numberA += 3;
+        numberA = numberA - 3;
         //skrótowo można skorzystać z +=
-        luckyNumber -= 3;
-        luckyNumber = luckyNumber * 3;
-        luckyNumber *= 3;
-        luckyNumber = luckyNumber / 3;
-        luckyNumber /=3;
+        numberA -= 3;
+        numberA = numberA * 3;
+        numberA *= 3;
+        numberA = numberA / 3;
+        numberA /=3;
+        //- i +
+        int negativeNumber = -numberA;
+         negativeNumber = +numberA;
+       /* int result = */
+
+        /*operatory mają kolejność wykonywania. Najważniejsze aby wiedzieć, że logiczne && jest wykonywane przed logicznym || */
+        boolean haveFunds = true; // mam pieniądze
+        boolean cookiesInStock = false; // ciastek nie ma w sklepie
+        boolean juiceInStock = true;  //sok jest w sklepie
+        boolean willBuySomething =   juiceInStock || haveFunds && cookiesInStock; // taka kolejność kolejność  juiceInStock || (haveFunds && cookiesInStock);
+        willBuySomething =   (juiceInStock || haveFunds) && cookiesInStock;
+
+        boolean a = false;
+        boolean b = false;
+        boolean c = true;
+        System.out.println(a == b == c);  // zawsze true ponieważ kolejność będzie od lewej do prawej (a == b ) zwróci true, później porównamy wynik z c i dostaniemy w wyniku true
+        // zawsze przy skomplikowanych warunkach wymuszamy kolejność nawiasami
+        int x = 5;
+        int y = 10;
+        int z = x++ * y; // wynik 50
+        System.out.println(z);
+        System.out.println(x);
+
+
+        System.out.println("1 + 2 = " + 1 + 2); // wynik 12 bo inty zostały skonwertowane na Stringa
+        // następuje konwersja , pierwszy mamy string 1 zostanie zamienione na stringa
+        String var = "1 + 2" +1;
+        // jak to naprawić, wymusić kolejność nawiasem
+        System.out.println("1 + 2 = " + (1 + 2)); // problem występuje tylko  z + bo służy nam do łączenia napisów
+        // ZADANIE
+
+        // zadeklaruj liczbę całkowitą wymyśloną przez ciebie wartością a następnie ułóż warunek sprawdzający czy ta liczba jest z
+        //zakresu 244- 1000. Wynik sprawdzenia zapisz w zmiennej logicznej
+
+
 
 
     }
