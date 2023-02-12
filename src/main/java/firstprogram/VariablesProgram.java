@@ -43,6 +43,19 @@ public class VariablesProgram {
         float weight = 72.5f;
 
         char gender = 'M'; //'F' // reprezentuje pojedynczy symbol w tekście
+        // tworzenie zmiennych przechowujących napisy
+        String firstName = "Pawel"; // można o tym napisie myśleć jako o ciągu charów 'P'+'a'+'w'+'e'+'l'
+        //napis umieszczamy pomiędzy cudzysłowami
+        int age = 12; // liczba
+        String ageString ="12"; // napis
+
+        System.out.println(firstName);
+        System.out.println(firstName+" "+age); // konkatenacja łączenie kilku Stringów w jeden przy użyciu +
+        // metody na Klasie string (specjalne funkcje do dyspozycji gdy chcemy działać na tej klasie)
+        // na stworzonym stringu wykonujemy są dostępne po kropce jak niżej
+        // ile liter ma string
+        System.out.println(firstName.length());
+
 
     }
 }
