@@ -147,6 +147,11 @@ public class OperatorsProgram {
         // zadeklaruj liczbę całkowitą wymyśloną przez ciebie wartością a następnie ułóż warunek sprawdzający czy ta liczba jest z
         //zakresu 244- 1000. Wynik sprawdzenia zapisz w zmiennej logicznej
 
+        int number = 8;
+        // number jest większy niż dolny zakres i jednocześnie number jest mniejszy niż górny zakres
+        boolean isInRange = (number >=  244)  &&  (number <=1000);
+        System.out.println(isInRange);
+
 
 
 
