@@ -6,10 +6,17 @@ public class Human {
     String name;
     int age;
 
-    //konstruktor
+    //konstruktor - specjalna metoda do Tworzenia obiektu
+    // posiada zawsze taką nazwe jak klasa
     public Human(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+    public Human(String name) {
+        this.name = name;
+    }
+    //konstruktor bezparametrowy, nie ustawiamy wartości żadnego pola
+    public Human() {
     }
     // przykład metody, akcja, którą można wykonać na obiekcie
     //nazwę
