@@ -27,6 +27,16 @@ public class ExerciseLoops {
             }
 
         }
+        //2.2
+        System.out.println("Parzyste z continue");
+        for (int i = 2; i <= 20; i++) {
+
+            if (i % 2 != 0) {
+                // wejdziemy do ifa w przypadku liczby nieparzystej, wykonamy continue i przejdziemy od razu do innej iteracji
+                continue;
+            }
+            System.out.println(i);
+        }
         // zad 3
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj liczbę: ");
