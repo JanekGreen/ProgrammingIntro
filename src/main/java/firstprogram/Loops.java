@@ -6,6 +6,7 @@ public class Loops {
         for (int i=0; i<5;i++){
             sum+=i;
         }
+        //5 silnia
         //5! 1*2*3*4*5
         System.out.println("Suma "+sum);
 
