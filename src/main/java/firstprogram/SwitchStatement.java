@@ -67,6 +67,8 @@ public class SwitchStatement {
                     //może go nie być
                 System.out.println("Nie znam Cię");
         }
+        // wyrażenie ma jakąś wartość, można przypisać do zmiennej (expression)
+        //instrukcja to po prostu najmniejszy fragment kodu który można wykonać
 
     }
 }
